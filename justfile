@@ -6,7 +6,7 @@ set windows-shell := ["powershell.exe"]
 
 # Run desktop app
 [working-directory: 'site']
-run:
+run: setup
   npx tailwindcss -i public/input.css -o public/output.css
   trunk build --release
   cargo run --manifest-path ../Cargo.toml
