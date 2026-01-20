@@ -6,7 +6,7 @@ A native desktop application that hosts a WebView with bidirectional IPC communi
 
 ```
 ┌─────────────────────────────────────────────────────────┐
-│                    Native App (Rust)                     │
+│                    Native App (Rust)                    │
 │  ┌───────────────┐    ┌──────────────────────────────┐  │
 │  │   Nightshade  │    │      WebView (wry)           │  │
 │  │    (egui)     │    │  ┌────────────────────────┐  │  │
